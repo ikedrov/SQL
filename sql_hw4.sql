@@ -11,11 +11,11 @@ create table employees(
 );
 
 insert into employees(employee_name)
-values ('Vann'),
+values 	   ('Vann'),
 	   ('Conner'),
-       ('Finley'),
-       ('Arthur'),
-       ('Harlyn'),
+           ('Finley'),
+           ('Arthur'),
+           ('Harlyn'),
 	   ('Xander'),
 	   ('Adonis'),
 	   ('Ismail'),
@@ -111,7 +111,7 @@ create table salary(
 );
 
 insert into salary(monthly_salary)
-values (1000),
+values     (1000),
 	   (1100),
 	   (1200),
 	   (1300),
@@ -144,7 +144,7 @@ create table employee_salary(
 );
 
 insert into employee_salary(employee_id, salary_id)
-values (2, 1),
+values     (2, 1),
 	   (1, 4),
 	   (5, 9),
 	   (40, 13),
@@ -202,7 +202,7 @@ alter table roles
 alter column role_name type varchar(30);
 
 insert into roles(role_name)
-values ('Junior Python developer'),
+values     ('Junior Python developer'),
 	   ('Middle Python developer'),
 	   ('Senior Python developer'),
 	   ('Junior Java developer'),
@@ -242,7 +242,7 @@ create table roles_employee(
 );
 
 insert into roles_employee(employee_id, role_id)
-values (1, 1),
+values     (1, 1),
 	   (2, 2),
 	   (3, 3),
 	   (4, 4),
